@@ -26,7 +26,7 @@
 
 ### Bước 5: Truy cập database tại phpMyAdmin, đặt database name là "bandoan" và chọn "utf8_general_ci". Sau đó create database.
 
-### Bước 6: Vào database "bandoan" vừa tạo nhấn "import" và chọn đến thư mục xampp -> htdocs -> DoAnCNTT, sau đó import file "bandoan.sql"
+### Bước 6: Vào database "bandoan" vừa tạo nhấn "import". Trong mục "File to import" chọn "Choose File", sau đó chọn đến thư mục xampp -> htdocs -> DoAnCNTT, sau đó import file "bandoan.sql"
 
 ### Bước 7: Cấu hình tại xampp/htdocs/DoAnCNTT/config.php
 - DB_NAME: "bandoan"

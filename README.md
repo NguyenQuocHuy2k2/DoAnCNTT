@@ -34,7 +34,13 @@
 - DB_HOST: "localhost"
 - PORT: Theo Port(s) của MySQL trong phầm mềm xampp, thường là 3306
 
-### Bước 8: Mở brower lên nhập localhost/DoAnCNTT để chạy đồ án. Chúc bạn thành công
+### Bước 8: Cấu hình tại xampp/htdocs/DoAnCNTT/admin/config.php
+- DB_NAME: "bandoan"
+- DB_USER và DB_PASSWORD: theo như cài đặt thường username: root và password để trống
+- DB_HOST: "localhost"
+- PORT: Theo Port(s) của MySQL trong phầm mềm xampp, thường là 3306
+
+### Bước 9: Mở brower lên nhập localhost/DoAnCNTT để chạy đồ án. Chúc bạn thành công
 - Lưu ý: username: hoang, pass: 123 -> để đăng nhập trang admin quản trị
 - username: huy, pass: 123 -> để đăng nhập với quyền là user
 

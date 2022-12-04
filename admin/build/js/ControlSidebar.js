@@ -48,10 +48,6 @@ const Default = {
   target: SELECTOR_CONTROL_SIDEBAR
 }
 
-/**
- * Class Definition
- * ====================================================
- */
 
 class ControlSidebar {
   constructor(element, config) {

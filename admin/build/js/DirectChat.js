@@ -7,10 +7,7 @@
 
 import $ from 'jquery'
 
-/**
- * Constants
- * ====================================================
- */
+
 
 const NAME = 'DirectChat'
 const DATA_KEY = 'lte.directchat'
@@ -24,10 +21,7 @@ const SELECTOR_DIRECT_CHAT = '.direct-chat'
 
 const CLASS_NAME_DIRECT_CHAT_OPEN = 'direct-chat-contacts-open'
 
-/**
- * Class Definition
- * ====================================================
- */
+
 
 class DirectChat {
   constructor(element) {

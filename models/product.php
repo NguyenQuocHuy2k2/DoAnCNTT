@@ -28,9 +28,7 @@ class Product extends Db
         $item = $sql->get_result()->fetch_all(MYSQLI_ASSOC);
         return $item; //return an array
     }
-    public function getProductById1($type_id)
-    {
-    }
+
     public function getProductsTopSellingByType1($type_id)
     {
         $sql = self::$connection->prepare("SELECT * FROM products,`sales` WHERE products.id = sales.id AND type_id = " . $type_id );
@@ -128,7 +126,7 @@ class Product extends Db
     }
 
 
-
+    
     public function paginate($url, $total, $perPage, $page)
     {
         $totalLinks = ceil($total / $perPage);

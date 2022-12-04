@@ -54,23 +54,5 @@ class Manufacture extends Db
         } else {
             header('location:manufactures.php?status=df');
         }
-        /*  $sql = self::$connection->prepare("DELETE FROM `manufactures` WHERE `manu_id`=?");
-        $sql->bind_param("i", $manu_id);
-        return $sql->execute(); */
     }
-    /* public function deleteManufacture1($manu_id)
-    {
-        $sql = self::$connection->prepare("SELECT COUNT(*) FROM `products` WHERE `manu_id`=?");
-        $sql->bind_param("i", $manu_id);
-        var_dump($sql);
-        if (count($sql)==0) {
-            $sql1 = self::$connection->prepare("DELETE FROM `manufactures` WHERE `manu_id`=?");
-            $sql1->bind_param("i", $manu_id);           
-            return $sql1->execute();
-
-        }
-        else{
-            header('location:products.php');
-        }
-        } */
 }

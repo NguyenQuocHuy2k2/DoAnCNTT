@@ -18,7 +18,7 @@
 
 **Bước 1:** Tải sẵn và cài đặt phần mềm **xampp** và **git Bash**.
 
-**Bước 2:** Sau đó vào thư mục **xampp** thường là trong ổ **C:** -> **htdocs** và click chuột phải vào **Open Git Bash Here**:
+**Bước 2:** Sau đó vào thư mục **xampp** thường là trong ổ **C:** -> **htdocs** và click chuột phải vào **Open Git Bash Here**
 
 **Bước 3:** Sau đó: git clone https://github.com/NguyenQuocHuy2k2/DoAnCNTT và nhấn **Enter**, folder đồ án sẽ được git vào trong **htdocs**
 
